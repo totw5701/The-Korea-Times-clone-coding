@@ -1,0 +1,25 @@
+.link-bar__frame {
+  display: flex;
+  justify-content: center;
+}
+
+.link-bar {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1250px;
+  text-align: center;
+}
+
+.link-bar__link-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.link-bar__link-icons__search {
+  border-right: 2px solid rgba(0, 0, 0, 0.5);
+  border-left: 2px solid rgba(0, 0, 0, 0.5);
+  padding: 5px 5px;
+  margin-right: 5px;
+}
