@@ -1,25 +1,141 @@
 .link-bar__frame {
   display: flex;
   justify-content: center;
+  width: 100vw;
 }
 
 .link-bar {
-  position: absolute;
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 1250px;
+  height: 32px;
   text-align: center;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.1);
 }
 
 .link-bar__link-icons {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: bolder;
+}
+
+.right-space {
+  margin-right: 15px;
+}
+
+.link-bar__link-icons__link-icon__facebook:hover {
+  color: #4064ac;
+}
+
+.link-bar__link-icons__link-icon__twitter:hover {
+  color: #29a4d9;
+}
+
+.link-bar__link-icons__link-icon__youtube:hover {
+  color: #e71b1a;
+}
+.link-bar__link-icons__link-icon__hankook-ilbo:hover {
+  color: #003629;
+}
+
+.link-bar__link-icons__link-icon__hankook-ilbo {
+  font-size: 10px;
+  font-weight: 600;
 }
 
 .link-bar__link-icons__search {
-  border-right: 2px solid rgba(0, 0, 0, 0.5);
-  border-left: 2px solid rgba(0, 0, 0, 0.5);
-  padding: 5px 5px;
-  margin-right: 5px;
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+  border-left: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 8px 11px;
+  margin-right: 11px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.link-bar__link-icons__link-icon {
+  display: flex;
+  align-items: center;
+}
+
+.link-bar__member-contents {
+  font-weight: bolder;
+  font-size: 12px;
+}
+
+.screen-header__frame {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}
+
+.screen-header {
+  width: 1250px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.screen-header__title {
+  padding-right: 40px;
+}
+
+.screen-header__ad {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.screen-header__ad__bank__img {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.screen-header__ad__date {
+  font-size: 12px;
+}
+
+.categories__frame {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}
+
+.categories {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1250px;
+  padding: 15px 0px;
+}
+
+.categories__side-deco {
+  height: 1px;
+  width: 100px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.categories__category {
+  font-weight: bolder;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.latest-news__frame {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}
+
+.latest-news {
+  display: flex;
+  align-items: center;
+  width: 1250px;
+  height: 25px;
+  padding: 5px 0px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.05), white);
+}
+
+.latest-news__content {
+  margin-left: 20px;
 }
