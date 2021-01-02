@@ -113,7 +113,7 @@
 .categories__side-deco {
   height: 1px;
   width: 100px;
-  border: 1px solid rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .categories__category {
@@ -138,4 +138,10 @@
 
 .latest-news__content {
   margin-left: 20px;
+}
+
+.main-screen__main-article__frame {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
 }
