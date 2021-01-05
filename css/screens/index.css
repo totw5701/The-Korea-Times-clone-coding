@@ -221,6 +221,7 @@
 }
 
 .main-screen__section02__content {
+  width: 920px;
 }
 
 .main-screen__section02__sid-ad {
@@ -354,4 +355,14 @@
 
 .main-screen__section02__sid-ad__top10-stories__content-list a {
   line-height: 130%;
+}
+
+.about-us__frame {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}
+
+.about-us__content {
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
 }

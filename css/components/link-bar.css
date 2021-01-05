@@ -67,3 +67,14 @@
 .link-bar__member-content:hover {
   color: seagreen;
 }
+
+/*categories에 들어가는 css*/
+
+.go-to-thekoreatimes {
+  margin-right: 15px;
+}
+
+.link-bar__link-icons__all {
+  font-weight: bolder;
+  margin-right: 15px;
+}
