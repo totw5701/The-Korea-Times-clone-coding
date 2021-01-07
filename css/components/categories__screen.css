@@ -1,0 +1,139 @@
+.screen-header--categories {
+  height: 90px;
+
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding-bottom: 20px;
+}
+
+.screen-header__title--categories {
+  font-size: 35px;
+  font-weight: bolder;
+}
+
+.screen-header__ad {
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.main-screen__section02__content--categories {
+  width: 880px;
+  padding-right: 20px;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.main-screen__section02__content__categories__headline {
+  display: flex;
+  margin-bottom: 43px;
+}
+
+.main-screen__section02__content__categories__headline__photo {
+  margin-right: 35px;
+}
+
+.main-screen__section02__content__categories__headline__content {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-screen__section02__content__categories__headline__content h1 {
+  font-size: 15px;
+  font-weight: bolder;
+  color: green;
+  margin-bottom: 10px;
+}
+
+.main-screen__section02__content__categories__headline__content h3 {
+  font-size: 25px;
+  font-weight: bolder;
+  margin-bottom: 15px;
+}
+
+.main-screen__section02__content__categories__headline__content p {
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.8);
+  margin-bottom: 15px;
+}
+
+.main-screen__section02__content__categories__headline__content div {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.main-screen__section02__content__categories__headline__content span {
+  font-size: 15px;
+}
+
+.main-screen__section02__content__categories__second-line {
+  display: flex;
+}
+
+.main-screen__section02__content__categories__second-line__contents {
+  width: 400px;
+  margin-right: 40px;
+}
+
+.main-screen__section02__content__categories__second-line__contents h1 {
+  font-size: 13px;
+  font-weight: bolder;
+  color: green;
+  margin: 10px 0px;
+}
+
+.main-screen__section02__content__categories__second-line__contents h3 {
+  font-size: 20px;
+  font-weight: bolder;
+  margin-bottom: 15px;
+}
+
+.main-screen__section02__content__categories__second-line__contents p {
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.8);
+  margin-bottom: 15px;
+}
+
+.main-screen__section02__content__categories__second-line__contents div {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.main-screen__section02__content__categories__second-line__contents span {
+  font-size: 15px;
+}
+
+.main-screen__section02__content__categories__thrid-lines {
+  margin-top: 40px;
+}
+
+.main-screen__section02__content__categories__thrid-lines__row {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-screen__section02__content__categories__thrid-lines__row__content {
+  width: 260px;
+}
+
+.main-screen__section02__content__categories__thrid-lines__row h1 {
+  font-size: 13px;
+  font-weight: bolder;
+  color: green;
+  margin: 10px 0px;
+}
+
+.main-screen__section02__content__categories__thrid-lines__row h3 {
+  font-size: 20px;
+  font-weight: bolder;
+  margin-bottom: 15px;
+}
+
+.main-screen__section02__content__categories__thrid-lines__row__content div {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.main-screen__section02__content__categories__thrid-lines__row span {
+  font-size: 15px;
+}

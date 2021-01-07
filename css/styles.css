@@ -3,6 +3,7 @@
 
 /* Components */
 @import "components/link-bar.css";
+@import "components/categories__screen.css";
 
 /* Screens */
 @import "screens/index.css";
